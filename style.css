@@ -1,0 +1,111 @@
+*{
+    background-color: pink;
+    
+    color: black;
+    font-style: normal;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+
+}
+
+#titleTwo {
+ margin-left: 35%;
+ font-size: 100%;
+}
+
+#titleOne{
+    position: absolute;
+    width: 378px;
+    height: 29px;
+    left: 58px;
+    top: 105px;
+}
+
+select{
+    box-sizing: border-box;
+    position: absolute;
+    width: 196px;
+    height: 58px;
+    left: 58px;
+    top: 199px;
+    
+    font-style: normal;  
+}
+
+#cards{
+    position: absolute;
+    left: 58px;
+    top: 256px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2%;
+    margin: 2%;
+    width: 536px;
+    height: 59px;
+    
+
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 18;
+    line-height: 22px;
+
+}
+
+#filterBtn{
+    position: absolute;
+    width: 226px;
+    height: 58px;
+    left: 58px;
+    top: 683px;   
+    background: #FFFFFF;
+    
+    text-align: center;
+    color: black;
+}
+
+#titleTwo{
+    position: absolute;
+    width: 175px;
+    height: 29px;
+    left: 58px;
+    top: 76px;
+}
+
+#addPerson{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 15px;
+    position: absolute;
+    top: 120px;
+    left:58px;
+}
+
+input{
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    width: 475px;
+    height:56px;
+}
+
+#addUserBtn{
+    position: absolute;
+    width: 226px;
+    height: 58px;
+    left: 58px;
+    top: 163px;   
+    background: #FFFFFF;
+    text-align: center;
+    color: black;
+ 
+}

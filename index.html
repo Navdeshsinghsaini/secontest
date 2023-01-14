@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>f2 secomd contest</title>
+    <link rel="Stylesheet" href="style.css">
+</head>
+<script>
+  function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>
+<body>
+    <div id="titleTwo"> Add a new User </div> 
+
+   <form id="addPerson" onsubmit="return validateForm()">
+
+    <label for="nameInput">Enter Name</label>
+    <label for="professionInput">Enter Profession</label>
+    <label for="ageInput">Enter Age</label>
+
+    <input type="text" id="nameInput">
+    <input type="text" id="professionInput">
+    <input type="text" id="ageInput">
+
+
+   <button type="button" id="addUserBtn">Add User</button>
+   <div>
+    <p id="yes">welcome</p>
+    <p id="no">wel</p>
+   </div>
+
+   <section id="cards">
+
+    <div class="card">
+        <span>1. </span>
+        <span>Name : John</span>
+        <span>Profession : Developer</span>
+        <span>Age : 18</span>
+    </div>
+    
+    <div class="card">
+        <span>2. </span>
+        <span>Name : Jack</span>
+        <span>Profession : Developer</span>
+        <span>Age : 20</span>
+    </div>
+
+    <div class="card">
+        <span>3. </span>
+        <span>Name : Karen</span>
+        <span>Profession : Admin</span>
+        <span>Age : 19</span>
+    </div>
+
+   </section>
+   
+  </form>
+    <script src="script.js"></script>
+</body>
+</html>
